@@ -1,0 +1,27 @@
+/*Pseudo clases*/
+.main-nav{
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    background-color: #F9DFAE;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a {
+    color: #E0810D;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-nav__item a:hover{
+    color: #804A07;
+}
+.main-nav__item a:active{
+    color: #1A531E;
+}
+
+/*Pseudo elementos*/
+.main-nav__item a::after{
+    content: "  |   ";
+}

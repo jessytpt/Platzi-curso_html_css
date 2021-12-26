@@ -1,0 +1,15 @@
+/*Por elemento/etiqueta*/
+p {
+    color: blueviolet;
+    font-size: 30px;
+}
+/*Por clase
+Comienza con punto*/
+.parrafo{
+    color: chartreuse;
+}
+/*Por id
+Comienza con numeral*/
+#texto{
+    color: darkgoldenrod;
+}
