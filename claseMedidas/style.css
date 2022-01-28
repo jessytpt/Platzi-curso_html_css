@@ -1,0 +1,15 @@
+* {
+/*    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  */}
+
+main {
+    background-color: #AD8EBD;
+    width: 600px;
+    height: 500px;
+}
+
+h1 {
+    font-size: 50%;
+}

@@ -3,6 +3,33 @@
     margin: 0;
     padding: 0;
   }
-  h2 + p{
+  /* Hermano más cercano: elemento más cercano
+  
+  h2 + p{ 
       color: brown;
+  }
+
+  */
+
+
+  /* Hermao general: los elementos al mismo nivel
+    
+  div ~ p{
+    color: #F33362;
+  }
+
+  */
+
+  /* Hijo directo: todos los elementos que contenga
+  
+  div > p{
+    color: #5FBDE1;
+  }
+
+  */
+  
+  /* Descendiente: etiquetas que estén dentro
+  */
+  div a {
+    color: #BDE186;
   }
